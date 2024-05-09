@@ -19,9 +19,9 @@ import (
 )
 
 var (
-	CACertFilePath = "/Users/minhquang/Documents/CA/ManagementCA.pem"
-	CertFilePath   = "/Users/minhquang/Documents/CA/certificate.pem"
-	KeyFilePath    = "/Users/minhquang/Documents/CA/privatekey.pem"
+	CACertFilePath = "/home/ubuntu/ManagementCA.pem"
+	CertFilePath   = "/home/ubuntu//certificate.pem"
+	KeyFilePath    = "/home/ubuntu//privatekey.pem"
 )
 
 type SignatureBody struct {
